@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Protocol 1000 — Offline</title>
+    <style>
+      :root { color-scheme: dark; }
+      html, body {
+        margin: 0; height: 100%;
+        background: #0b0d10; color: #e6e9ee;
+        font-family: system-ui, -apple-system, sans-serif;
+        display: grid; place-items: center; text-align: center;
+      }
+      .wrap { padding: 2rem; max-width: 22rem; }
+      .dot { width: 12px; height: 12px; border-radius: 50%; background: #2dd4bf;
+             margin: 0 auto 1.25rem; box-shadow: 0 0 24px 4px rgba(45,212,191,.6); }
+      h1 { font-size: 1.25rem; margin: 0 0 .5rem; letter-spacing: -0.01em; }
+      p { color: #8b93a1; line-height: 1.5; margin: 0 0 1.5rem; font-size: .95rem; }
+      button {
+        background: #2dd4bf; color: #04211d; border: 0; font-weight: 600;
+        padding: .7rem 1.4rem; border-radius: .8rem; font-size: .95rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="dot"></div>
+      <h1>You're offline</h1>
+      <p>Protocol 1000 runs entirely on your device, but the app shell hasn't
+         finished caching yet. Reconnect once, then it works offline forever.</p>
+      <button onclick="location.reload()">Try again</button>
+    </div>
+  </body>
+</html>

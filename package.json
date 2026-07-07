@@ -1,0 +1,28 @@
+{
+  "name": "protocol-1000",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Protocol 1000 — a local-first, offline PWA for a 1000-day transformation across fitness, nutrition, cognition and mental health. Zero backend. Data lives in IndexedDB on your device.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "dependencies": {
+    "dexie": "^4.0.8",
+    "dexie-react-hooks": "^1.1.7",
+    "lucide-react": "^0.400.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "recharts": "^2.12.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.12.10",
+    "postcss": "^8.4.40",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.3.5"
+  }
+}
