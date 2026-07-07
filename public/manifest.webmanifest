@@ -2,8 +2,8 @@
   "name": "Protocol 1000",
   "short_name": "Protocol 1000",
   "description": "A private, offline 1000-day self-improvement engine for fitness, nutrition, cognition and mental health.",
-  "start_url": "/?source=pwa",
-  "scope": "/",
+  "start_url": "https://avikoder.github.io/protocol-1000/?source=pwa",
+  "scope": "https://avikoder.github.io/protocol-1000/",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0B0D10",
@@ -11,19 +11,19 @@
   "categories": ["health", "fitness", "lifestyle", "productivity"],
   "icons": [
     {
-      "src": "/icons/icon-192.png",
+      "src": "https://avikoder.github.io/protocol-1000/icons/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/icon-512.png",
+      "src": "https://avikoder.github.io/protocol-1000/icons/icon-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/icons/maskable-512.png",
+      "src": "https://avikoder.github.io/protocol-1000/icons/maskable-512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
