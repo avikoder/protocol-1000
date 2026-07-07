@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react';
 // set base to '/protocol-1000/' AND update the service worker + manifest scopes
 // (see README "Deploying to a sub-path").
 export default defineConfig({
-  base: '/',
+  base: '/protocol-1000',
   plugins: [react()],
   build: {
     target: 'es2018', // safe for older iOS Safari WebKit
